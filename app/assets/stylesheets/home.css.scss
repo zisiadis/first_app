@@ -15,22 +15,29 @@ header {
 
 }
 
-
+div {display: block;}
 
 
 
 #nav {
 	margin-top: 30px;
-	width: 100px;
+	width: 130px;
 	height:500px;
 	margin-right: 50px;
 	float:left;
+	border: 5px solid orange;
+	position: fixed;
+	z-index: 10;
+
 }
 
 #body {
 	margin-top: 30px;
-	with: 500px;
-	height:500px;
+	height: 500px;
+	width: auto;
+	border: 5px solid orange;
+	margin-left: 130px;
+	
 }
 
 #name {
@@ -46,7 +53,7 @@ header {
 }
 
   img {
-	width: 200px;
+	width: 250px;
 	height: 200px;
 		
 }
@@ -68,4 +75,8 @@ float: left;
 margin: 0 35px 10px 0;
 position: relative;
 text-align: center;
+	&:hover {
+		border: 1px solid green;
+	}
 }
+

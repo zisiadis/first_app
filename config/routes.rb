@@ -4,6 +4,14 @@ FirstApp::Application.routes.draw do
 root to: 'home#mainpage'
 
 match '/bio', to: 'home#bio'
+match '/balloonacy', to: 'home#balloonacy'
+match '/wave', to: 'home#wave'
+match '/dj_straus', to: 'home#dj_straus'
+match '/sf_funk_truck', to: 'home#sf_funk_truck'
+match '/examer_slammer', to: 'home#examer_slammer'
+match '/before_i_graduate', to: 'home#before_i_graduate'
+match '/awesome_foundation', to: 'home#awesome_foundation'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

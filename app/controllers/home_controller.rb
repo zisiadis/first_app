@@ -10,11 +10,31 @@ class HomeController < ApplicationController
 	def bio
 	end
 
-	def Balloonacy
+	def balloonacy
 	end
 
-	def Awesome_Foundation
+	def awesome_foundation
 	end
+
+	def wave
+	end
+
+	def examer_slammer
+	end
+	
+	def sf_funk_truck
+	end
+	
+	def dj_straus
+	end
+	
+	def awesome_foundation
+	end
+
+	def before_i_graduate
+	end
+	
+	
 
 
 end
