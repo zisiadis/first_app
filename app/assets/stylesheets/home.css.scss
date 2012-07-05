@@ -1,0 +1,71 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'bootstrap'; 
+
+header {
+	position: fixed;
+	display: block;
+	float:left;
+	width:180px;
+	padding-bottom: 500px;
+	border: 5px solid orange;
+	
+
+}
+
+
+
+
+
+#nav {
+	margin-top: 30px;
+	width: 100px;
+	height:500px;
+	margin-right: 50px;
+	float:left;
+}
+
+#body {
+	margin-top: 30px;
+	with: 500px;
+	height:500px;
+}
+
+#name {
+	
+	float: left;
+	border: 5px solid blue;
+	margin-top: auto;
+
+}
+
+#project-text {
+	padding-left: 5px;
+}
+
+  img {
+	width: 200px;
+	height: 200px;
+		
+}
+
+
+.thumb_title .text {
+color: black;
+font-size: 11px;
+font-weight: bold;
+line-height: 15px;
+overflow: hidden;
+padding: 2px 3px 2px 3px;
+white-space: nowrap;
+text-align: center;
+}
+
+.project-thumb {
+float: left;
+margin: 0 35px 10px 0;
+position: relative;
+text-align: center;
+}
