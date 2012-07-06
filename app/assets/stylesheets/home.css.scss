@@ -20,30 +20,26 @@ div {display: block;}
 
 
 #nav {
-	margin-top: 30px;
 	width: 130px;
 	height:500px;
-	margin-right: 50px;
+	margin: 30px 50px 0 15px;
 	float:left;
-	border: 5px solid orange;
 	position: fixed;
 	z-index: 10;
 
 }
 
-#body {
+.body {
 	margin-top: 30px;
 	height: 500px;
 	width: auto;
-	border: 5px solid orange;
-	margin-left: 130px;
+	margin-left: 140px;
 	
 }
 
 #name {
 	
 	float: left;
-	border: 5px solid blue;
 	margin-top: auto;
 
 }
@@ -53,16 +49,31 @@ div {display: block;}
 }
 
   img {
-	width: 250px;
-	height: 200px;
+	width: auto;
+	height : 300px;
+	width: 200px;
+	height : auto;
+	z-index:10;
+    padding:1px;
+-moz-box-shadow:0px 0px 7px #000000;
+-webkit-box-shadow:0px 0px 7px #000000;
+box-shadow:0px 0px 7px #000000;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; 
 		
 }
 
+#bio_pic{
+	
+	height: 600px;
+	width: 600px;
+}
 
-.thumb_title .text {
-color: black;
-font-size: 11px;
-font-weight: bold;
+
+.text {
+font-size: 18px;
+font-family: Helvetica;
 line-height: 15px;
 overflow: hidden;
 padding: 2px 3px 2px 3px;
@@ -76,7 +87,22 @@ margin: 0 35px 10px 0;
 position: relative;
 text-align: center;
 	&:hover {
-		border: 1px solid green;
+		opacity: .9;
+		color:red;
 	}
+}
+
+#navtext {
+	margin-top: 90px;
+	position: relative;
+	
+}
+
+iframe { margin-left: 10%;
+		margin-right: 10%;}
+
+.hover-red {
+	&:hover {
+		color:red;
 }
 
