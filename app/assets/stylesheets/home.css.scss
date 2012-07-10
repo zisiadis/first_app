@@ -48,7 +48,9 @@ div {display: block;}
 	padding-left: 5px;
 }
 
-  img {
+
+
+img {
 	width: auto;
 	height : 300px;
 	width: 200px;
@@ -60,8 +62,13 @@ div {display: block;}
 box-shadow:0px 0px 7px #000000;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
-border-radius: 4px; 
-		
+border-radius: 4px; 		
+}
+
+
+Wave {
+	width: 640px !important ;
+	height: 360px !important;
 }
 
 #bio_pic{
