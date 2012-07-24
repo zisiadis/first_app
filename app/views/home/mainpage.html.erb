@@ -4,7 +4,7 @@
     
     	<div class = 'project-thumb'>
       	<%= link_to image_tag('balloonacy_color.png'), balloonacy_path%>
-		<div class = 'text'> Balloonacy! </div>
+		<div id = 'text-balloon' class='text'> Balloonacy! </div>
 		</div>
 
 		<div class = 'project-thumb'>
@@ -18,8 +18,13 @@
 		</div>
 
 		<div class = 'project-thumb'>	
+		<%= link_to image_tag('awesomefoundation.png'), awesome_foundation_path %>
+		<div class = 'text'> <p class = 'text'>The Awesome</p> <p class = 'text'>Foundation</p> </div>
+		</div>
+
+		<div class = 'project-thumb'>	
 		<%= link_to image_tag('Examer_Slammer.jpeg'), examer_slammer_path %>
-		<div class = 'text'>The Exammer Slammer </div>
+		<div class = 'text'><p class = 'text'>The Exammer</p> <p class = 'text'> Slammer </p> </div>
 		</div>
 
 		<div class = 'project-thumb'>	
@@ -32,12 +37,6 @@
 		'), dj_straus_path %>
 		<div class = 'text'> DJ Straus </div>
 		</div>
-
-		<div class = 'project-thumb'>	
-		<%= link_to image_tag('awesomefoundation.png'), awesome_foundation_path %>
-		<div class = 'text'> The Awesome Foundation </div>
-		</div>
-
    
 </div>
 

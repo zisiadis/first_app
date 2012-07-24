@@ -20,7 +20,7 @@ div {display: block;}
 
 
 #nav {
-	width: 130px;
+	width: 160px;
 	height:500px;
 	margin: 30px 50px 0 15px;
 	float:left;
@@ -33,30 +33,22 @@ div {display: block;}
 	margin-top: 30px;
 	height: 500px;
 	width: auto;
-	margin-left: 140px;
+	margin-left: 210px;
 	
 }
 
-#name {
-	
-	float: left;
-	margin-top: auto;
+
+
+
+
+.description-text {
+	font-size: 20px;
 
 }
-
-#project-text {
-	padding-left: 5px;
-}
-
 
 
 img {
-	width: auto;
-	height : 300px;
-	width: 200px;
-	height : auto;
-	z-index:10;
-    padding:1px;
+	
 -moz-box-shadow:0px 0px 7px #000000;
 -webkit-box-shadow:0px 0px 7px #000000;
 box-shadow:0px 0px 7px #000000;
@@ -66,26 +58,26 @@ border-radius: 4px;
 }
 
 
-Wave {
-	width: 640px !important ;
-	height: 360px !important;
-}
-
 #bio_pic{
 	
-	height: 600px;
+	height: auto;
 	width: 600px;
 }
 
 
 .text {
-font-size: 18px;
+font-size: 24px;
 font-family: Helvetica;
 line-height: 15px;
 overflow: hidden;
 padding: 2px 3px 2px 3px;
 white-space: nowrap;
 text-align: center;
+
+}
+
+#text-balloon {
+	height: 40px;
 }
 
 .project-thumb {
@@ -93,16 +85,64 @@ float: left;
 margin: 0 35px 10px 0;
 position: relative;
 text-align: center;
+	width: 230px;
+	height : 230px;
+	z-index:10;
+    padding:1px;
+
 	&:hover {
 		opacity: .9;
 		color:red;
 	}
 }
 
-#navtext {
-	margin-top: 90px;
-	position: relative;
+/* Nav Bar */
+
+#name {
 	
+	float: left;
+	margin-top: auto;
+	font-size: 40px;
+	color:black;
+	font-family: Zapfino;
+	line-height: 1.9;
+	
+
+	
+}
+
+.navtext {
+	position: relative;
+	font-size: 22px;
+	color: black;
+
+	
+}
+
+#navbar{
+	margin-top: 120px;
+
+}
+
+.project-text {
+	position: relative;
+	font-size: 30px;
+	line-height: 1;
+	margin-top: 30px;
+	color: #898989;
+	padding-left: 5px;
+	&:hover {
+		color: red;
+
+	};
+}
+	
+	
+
+
+#line {
+	border-bottom: 2px black dashed;
+	margin-top: 20px;
 }
 
 iframe { margin-left: 10%;
